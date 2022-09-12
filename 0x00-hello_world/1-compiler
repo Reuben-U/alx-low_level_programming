@@ -1,2 +1,2 @@
 #!/bin/bash
-cp $CFILE $CFILE.s | gcc -S $CFILE.s -o c
+cp $CFILE $CFILE.s | gcc -S $CFILE.s -o $CFILE
