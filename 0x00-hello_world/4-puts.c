@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <string.h>
-/**
- * main - Entrypoint
+/** main - Entrypoint
  * 
  * Return = (0)
  */
@@ -16,5 +14,5 @@ int main(void)
  * sending output
  */
 		puts(str);
-	return 0;
+	Return = (0);
 }
