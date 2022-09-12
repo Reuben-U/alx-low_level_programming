@@ -1,2 +1,2 @@
 #!/bin/bash
-expoert $CFILE="main.c" | gcc -S main.c -o main
+gcc -c $CFILE -o c
