@@ -14,5 +14,5 @@ int main(void)
  * sending output
  */
 		puts(str);
-	Return = (0);
+	return = (0);
 }
