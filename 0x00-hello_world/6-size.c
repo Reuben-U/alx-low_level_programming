@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Prints the file sizes
- *  
+ * Main - Prints file sizes
+ *
  * Return: 0;
  */
 int main(void)
