@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Prints file sizes
- *
+ * main - Entry point
+ *Description: prints values out
  * Return: 0;
  */
 int main(void)
