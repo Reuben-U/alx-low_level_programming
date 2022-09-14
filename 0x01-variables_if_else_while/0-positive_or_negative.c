@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/**
- * main - entry point
- *
- *Description: code tests if statements
- *
- * return: 0 'Always success';
- */
 int main(void)
+/**
+ * main - Enter number
+ *
+ * Dscription: indicate sign
+ *
+ * Return: Always 0
+ */
 {
 	int n;
 
