@@ -10,6 +10,6 @@
 int _putchar(char c)
 {
 	_putchar('_');
-	_putchar('\n')
-	return (0);
+	_putchar('\n');
+	return (1);
 }
