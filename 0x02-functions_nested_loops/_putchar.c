@@ -1,7 +1,6 @@
 #include <unistd.h>
 /**
- * 0-putchar.c - displays _putchar
- *
+ *_ putchar.c - displays _putchar
  * @putchar: The characters to be printed
  *
  * Return: on success 1.
@@ -9,7 +8,5 @@
  */
 int _putchar(char c)
 {
-	_putchar('_');
-	_putchar('\n')
-	return (0);
+	return (write(1, &c, 1));
 }
