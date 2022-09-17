@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 
-	printf("Infinite loop incoming :\n %d", i);
+	printf("Infinite loop incoming :%d \n", i);
 	i = 0;	
 	/*
 	 * while (i < 10)
