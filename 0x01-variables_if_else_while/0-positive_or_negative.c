@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-int main(void)
 /**
- * main - Enter number
+ * main - Entry point
  *
- * Dscription: indicate sign
+ * Description - indicates sign of random integer
  *
  * @n - random variable
  *
  * Return: Always 0
  */
+int main(void)
 {
 	int n;
 
