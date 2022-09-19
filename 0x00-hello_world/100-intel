@@ -1,3 +1,2 @@
 #!/bin/bash
-export $CFILE=main.c
-gcc main.c -masm=intel -mconsole -o main.o
+export $CFILE=main.c | gcc main.c -masm=intel -mconsole -o main.o
