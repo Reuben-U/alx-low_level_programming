@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints lastdigit >= 5
+ * main - entry point
+ * Description: Prints lastdigit >= 5
+ * @n - random integer
+ * @lastdigit - digit to print
+ * Return: 0
  */
 int main(void)
 {
@@ -11,17 +15,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-/**
- * Define last digit function
- */
+
+	long int lastdigit(int n)
+	{
 	lastdigit = n % 10;
-/**
- * Compare last digit to 5
- */
+	}
 	printf("Last digit of %d is %ld ", n, lastdigit);
-/**
- * sort out last digit
- */
+
 	if (lastdigit > 5)
 	{
 		printf("and is greater than 5\n");
@@ -31,10 +31,10 @@ int main(void)
 		printf("and is 0\n");
 	else if (lastdigit < 6)
 	{
-		printf("and is less than 6 not 0\n") ;
+		printf("and is less than 6 not 0\n");
 	}
 	else
 	{
 		printf("\n");
-return 0;
+return (0);
 }
