@@ -19,8 +19,9 @@ int main(void)
 	long int lastdigit(int n)
 	{
 	lastdigit = n % 10;
+	return lastdigit;
 	}
-	printf("Last digit of %d is %ld ", n, lastdigit);
+	printf("Last digit of %d is %li ", n, lastdigit);
 
 	if (lastdigit > 5)
 	{
