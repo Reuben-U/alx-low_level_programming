@@ -5,11 +5,7 @@
  *
  * Return: Always 0.
  */
-void rest_to_98(int *n)
+void reset_to_98(int *n)
 {
-	int i;
-	int *n;
-	
-	n = &i
-	n = 98
+	*n=98;
 }
