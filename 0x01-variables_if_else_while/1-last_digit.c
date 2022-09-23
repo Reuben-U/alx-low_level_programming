@@ -3,39 +3,29 @@
 #include <time.h>
 /**
  * main - entry point
- * Description: Prints lastdigit >= 5
+ * Description: prints increments
  * @n - random integer
- * @lastdigit - digit to print
- * Return: 0
+ *Return: Always 0
  */
 int main(void)
 {
 	int n;
-	long int lastdigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	long int lastdigit(int n)
-	{
-	lastdigit = n % 10;
-	return lastdigit;
-	}
-	printf("Last digit of %d is %li ", n, lastdigit);
+	printf("Last digit of %d is %d ", n, n % 10);
 
-	if (lastdigit > 5)
+	if (n % 10 > 5)
 	{
-		printf("and is greater than 5\n");
+		printf("and is greater than 5");
 	}
-	else if (lastdigit == 0)
+	else if (n % 10 == 0)
 	{
-		printf("and is 0\n");
-	else if (lastdigit < 6)
-	{
-		printf("and is less than 6 not 0\n");
-	}
+		printf("and is 0");
 	else
 	{
-		printf("\n");
+		printf("and is less than 6 not 0");
+	}
 return (0);
 }
