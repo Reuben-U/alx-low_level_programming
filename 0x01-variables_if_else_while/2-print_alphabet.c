@@ -6,13 +6,11 @@
  */
 int main(void)
 {
-	char n = 'a';
+	char n [26];
 	
-	while (n <= 'z')
-	{
-	putchar("%c", n);
-	}
-	putchar("\n");
-	
+	for (i = 'a'; i <= 'z'; ++i)
+	putchar(n[i]);
+
+	putchar('\n');
 	return (0);
 }
