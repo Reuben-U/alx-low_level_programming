@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char n [26];
+	char i[26];
 	
 	for (i = 'a'; i <= 'z'; ++i)
 	putchar(n[i]);
