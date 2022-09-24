@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * msin - prints all new numbers and new line
- * Return: 0
+ * main - Entry point
+ * Description: prints out numbers 0 to 9
+ *Return: 0
  */
 int main(void)
 {
@@ -10,7 +11,7 @@ int main(void)
 
 	for (ch = 0; ch <= 9; ch++)
 	{
-	printf("%d",ch);
+	printf("%d", ch);
 	}
 	printf("\n");
 return (0);
