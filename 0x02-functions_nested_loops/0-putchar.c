@@ -7,7 +7,7 @@
  * Return: on success 1.
  * on error, -1 is returned, and erno is set appropriately.
  */
-int _putchar(char c)
+int _putchar(void)
 {
 	_putchar('_');
 	_putchar('\n');
