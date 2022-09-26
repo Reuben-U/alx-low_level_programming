@@ -1,8 +1,7 @@
 #include <unistd.h>
 /**
- *_ putchar.c - displays _putchar
- * @putchar: The characters to be printed
- *
+ * _putchar - prints characters
+ * @c: character to beprinted.
  * Return: on success 1.
  * on error, -1 is returned, and erno is set appropriately.
  */
