@@ -9,6 +9,8 @@ void print_rev(char *s)
 {
 	int c = 0;
 
+	if (*s > '\0')
+	{
 	while (s[c] != '\0')
 	{
 	c++;
@@ -16,5 +18,6 @@ void print_rev(char *s)
 	c--;
 	do(_putchar(s[c]), c--);
 	while (c > -1);
+	}
 	_putchar('\n');
 }
