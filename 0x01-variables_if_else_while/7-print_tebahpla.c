@@ -7,12 +7,13 @@ int main(void)
 {
 	int i;
 
-	i = 'z'
+	i = 'z';
 	while (i >= 'a')
 	{
 		putchar(i);
 		i--;
 	}
+return (0);
 }
 
 
