@@ -24,6 +24,6 @@ void rev_string(char *s)
 	{
 		b = *(s + i);
 		*(s + i) = *(ps - i);
-		*(s + len - i) = b;
+		*(s + len - 1 - i) = b;
 	}
 }
