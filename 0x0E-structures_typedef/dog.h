@@ -2,6 +2,7 @@
 #define DOG_H
 #include <stdlib.h>
 #include <stdio.h>
+void init_dog(struct dog *d, char *name, float age, char *owner);
 /**
  * struct dog - Dog created for files
  * @name: dog name
