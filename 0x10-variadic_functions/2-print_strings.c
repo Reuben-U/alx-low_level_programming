@@ -12,7 +12,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *str;
 	va_list spec;
 
-	if (*separator != NULL && n > 0)
+	if (separator != NULL && n > 0)
 	{
 	va_start(spec, n);
 
