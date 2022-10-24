@@ -12,6 +12,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *str;
 	va_list spec;
 
+	if (*separator != NULL && n > 0)
+	{
 	va_start(spec, n);
 
 	for (i = 0; i < n - 1; i++)
@@ -28,6 +30,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	printf("%s", str);
 
 	va_end(spec);
+	}
+
 	putchar('\n');
 
 }
